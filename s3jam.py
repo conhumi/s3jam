@@ -26,6 +26,5 @@ def main():
     uploadObject(getBucket(s3, 'hoge'), '1024Mbyteobj', bytesIo)
 
 
-
 if __name__ == '__main__':
     main()
